@@ -28,7 +28,6 @@ public class Solution {
                //insert !0 in sorted
                nums[sorted]=nums[i];
                sorted=sorted+1;
-                nums[i]=0;
             }
         }
         for(int i=sorted;i<nums.length;i++){
