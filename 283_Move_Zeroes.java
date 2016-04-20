@@ -6,7 +6,7 @@ public class Solution {
         //find !0
         for(int i=0;i<nums.length;i++){
             if(nums[i]!=0){
-               //insert !0 in sorted
+               //bubble !0 in sorted
                for(int j=i;j>sorted;j--){
                    temp=nums[j];
                    nums[j]=nums[j-1];
