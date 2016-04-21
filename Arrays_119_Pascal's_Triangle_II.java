@@ -24,7 +24,7 @@ public class Solution {
        int[] temp=new int[rowIndex+2];
         a[1]=1;
         for(int i=1;i<=rowIndex+1;i++){
-            System.arraycopy(a, 0, temp, 0, rowIndex+1);
+            System.arraycopy(a, 0, temp, 0, rowIndex+1);//look out the range
             for(int j=1;j<=i;j++){
                 if(i>=2){
                     a[j]=temp[j-1]+temp[j];
