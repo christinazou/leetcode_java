@@ -20,7 +20,6 @@ public class Solution {
                     pre=pre.next;
                     head=head.next;
                 }
-                
             }
           return headCount.next;  
         }
