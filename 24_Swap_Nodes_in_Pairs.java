@@ -15,6 +15,7 @@ public ListNode swapPairs(ListNode head) {
     return dummy.next;
 }
 
+
 // This is similar to my intuitive thought. However it doesn't use an dummy node.
 public class Solution {
         public ListNode swapPairs(ListNode head) {
