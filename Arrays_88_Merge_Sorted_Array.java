@@ -3,7 +3,6 @@ public class Solution {
         int[] rs= new int[m+n];
         int c1=0,c2=0;
         for(int i=0;i<m+n;i++){
-        //    System.out.println("i"+i+" c1"+c1+" c2"+c2);
             if(c1<m&&c2<n){
                 if(nums1[c1]<nums2[c2]){
                    rs[i]=nums1[c1];
@@ -23,9 +22,6 @@ public class Solution {
                 c2++;
             }
         }
-       //  nums1[0]=10;
-          //System.out.println(n+m);
-         // rs[0]=10;
         System.arraycopy(rs, 0, nums1, 0, n+m);
     }
 }
