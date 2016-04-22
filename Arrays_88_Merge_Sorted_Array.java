@@ -1,4 +1,5 @@
 public class Solution {
+    //Is any way to do it in place?
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] rs= new int[m+n];
         int c1=0,c2=0;
