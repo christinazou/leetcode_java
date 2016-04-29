@@ -20,3 +20,12 @@ public class Solution extends VersionControl {
     }
   }
 }
+
+/* Your problem is that the int (j + k) overflows (is greater than Integer.MAX_INT). try replacing
+(j+k)/2
+with
+j + ((k - j) / 2)
+These are mathematically equivelent 
+(you can see that they are both just (j / 2 + k / 2) written differently. 
+Another way of thinking about it is to think of starting from j and you want to go half way to k, 
+so half of the difference between j and k, which is ((k - j) / 2).*/
