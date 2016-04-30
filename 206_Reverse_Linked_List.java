@@ -10,7 +10,6 @@
  *     ListNode(int x) { val = x; }
  * }
  */
- 
  //My solution
  // iterative solution
 public class Solution {
