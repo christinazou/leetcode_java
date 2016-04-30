@@ -10,8 +10,7 @@ public class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode cur=head;
         int i=0;
-        while(cur!=null)
-       {
+        while(cur!=null){
           i++;
           cur=cur.next;
        }
